@@ -1,6 +1,6 @@
 = easy_routing
 
-Description goes here.
+A simple plugin to make Rails 3 routing a bit more concise.
 
 == Note on Patches/Pull Requests
  

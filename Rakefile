@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "easy_routing"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{makes declaring rails 3 routes even easier}
+    gem.description = %Q{A collection of useful methods to make declaring a variety of rails 3 routes even easier}
     gem.email = "jack.dempsey@gmail.com"
     gem.homepage = "http://github.com/jackdempsey/easy_routing"
     gem.authors = ["Jack Dempsey"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    #gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
