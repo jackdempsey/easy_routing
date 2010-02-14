@@ -9,7 +9,7 @@ and decided it'd be interesting to put together a plugin with some time and spac
 
 == Examples
 
-Before:
+==== Before:
 
 match 'search(/:s)' => 'search#search', :as => :search
 
@@ -25,7 +25,7 @@ match 'faq' => 'home#faq', :as => :faq
 
 match 'press' => 'home#press', :as => :press
 
-After:
+==== After:
 
 actions_for :search => %w{search(/:s) saved_search/:id(.:format) tag/:tag}
  
