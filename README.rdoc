@@ -12,12 +12,17 @@ and decided it'd be interesting to put together a plugin with some time and spac
 Before:
 
 match 'search(/:s)' => 'search#search', :as => :search
+
 match 'saved_search/:id(.:format)' => 'search#saved_search', :as => :saved_search
+
 match 'tag/:tag' => 'search#tag', :as => :tag
 
 match 'privacy' => 'home#privacy', :as => :privacy
+
 match 'about' => 'home#about', :as => :about
+
 match 'faq' => 'home#faq', :as => :faq
+
 match 'press' => 'home#press', :as => :press
 
 After:
